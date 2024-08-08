@@ -100,7 +100,7 @@ func main() {
 		}
 	}
 
-	if aNumber < 0 || aNumber > 10 || bNumber < 0 || bNumber > 10 {
+	if aNumber < 1 || aNumber > 10 || bNumber < 1 || bNumber > 10 {
 		panic("Калькулятор может принимать на вход числа от 1 до 10 включительно")
 	}
 
